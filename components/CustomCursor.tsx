@@ -62,14 +62,14 @@ export default function CustomCursor() {
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,
-        transform: 'translate(-50%, -50%)',
+        transform: 'translate(0%, 0%)',
       }}
     >
       <Image
-        src={clicked ? '/click.png' : linkHovered ? '/hover.png' : '/hover.png'}
+        src={clicked ? '/navigation.png' : linkHovered ? '/navigation.png' : '/navigation.png'}
         alt="Custom Cursor"
-        width={clicked ? 50 : linkHovered ? 60 : 54}
-        height={clicked ? 50 : linkHovered ? 60 : 54}
+        width={clicked ? 40 : linkHovered ? 44 : 40}
+        height={clicked ? 40 : linkHovered ? 44 : 40}
       />
     </div>
   )

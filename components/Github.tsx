@@ -12,7 +12,6 @@ const githubIds = [
   'AzimMohideen',
   'bhrahmesh',
   'arjun256900',
-  'keerthikumar132005',
 ];
 
 export function GitHubIds() {
